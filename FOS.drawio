@@ -5,16 +5,31 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="o1JF2bDSxENejQ3DdPRW-1" value="HANA Data Lake Files (HDLFS)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#EBF8FF;arcSize=12;absoluteArcSize=1;imageWidth=64;imageHeight=64;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="241" y="520" width="339" height="60" as="geometry" />
+          <mxGeometry x="90" y="610" width="490" height="20" as="geometry" />
         </mxCell>
         <mxCell id="o1JF2bDSxENejQ3DdPRW-2" value="Object Store" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;strokeWidth=1.5;arcSize=10;fillColor=#FFFFFF;perimeterSpacing=0;absoluteArcSize=1;" vertex="1" parent="1">
-          <mxGeometry x="241" y="580" width="339" height="60" as="geometry" />
+          <mxGeometry x="90" y="630" width="490" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="o1JF2bDSxENejQ3DdPRW-3" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Foundation Services (FOS)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#07838F;fontColor=#07838F;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="241" y="460" width="339" height="60" as="geometry" />
+        <mxCell id="o1JF2bDSxENejQ3DdPRW-3" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Foundation Services (FOS)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1.5;strokeColor=#07838F;fontColor=#07838F;fontStyle=1;arcSize=4;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="490" height="130" as="geometry" />
         </mxCell>
         <mxCell id="o1JF2bDSxENejQ3DdPRW-4" value="HANA Spark" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#EBF8FF;arcSize=12;absoluteArcSize=1;imageWidth=64;imageHeight=64;strokeWidth=1.5;" vertex="1" parent="1">
           <mxGeometry x="241" y="370" width="159" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o1JF2bDSxENejQ3DdPRW-6" value="&lt;div&gt;Delta Sharing&lt;/div&gt;&lt;div&gt;Server&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="505" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o1JF2bDSxENejQ3DdPRW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="o1JF2bDSxENejQ3DdPRW-2" target="o1JF2bDSxENejQ3DdPRW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o1JF2bDSxENejQ3DdPRW-8" value="&lt;div&gt;Parquet&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o1JF2bDSxENejQ3DdPRW-9" value="&lt;div&gt;CSV&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o1JF2bDSxENejQ3DdPRW-11" value="&lt;div&gt;Delta Table&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="500" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
